@@ -17,23 +17,7 @@ Gateway
 ESP32-WROOM
 EBYTE E01 RF Module
 SSD1306 OLED Display (128x64)
-
-The sensor node collects environmental data and sends it via RF to the gateway.
-┌─────────────────────┐
-│ ESP32-C3 SuperMini  │
-│                     │
-│ AHT10 Sensor        │
-│ E01 RF Module       │
-└─────────┬───────────┘
-          │
-          │ 2.4GHz RF
-          │
-┌─────────▼───────────┐
-│ ESP32-WROOM Gateway │
-│                     │
-│ E01 RF Module       │
-│ SSD1306 OLED        │
-└─────────────────────┘
+>The sensor node collects environmental data and sends it via RF to the gateway.
 
 🔧 Hardware
 Sensor Node
